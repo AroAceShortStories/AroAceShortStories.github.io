@@ -342,7 +342,8 @@ export const STORIES: DataStory[] = [
     { 
         id: 63, title: "What Makes Us Human", author: 6, link: "https://aroworlds.com/marchverse/mara-and-esher-hill/what-makes-us-human/", 
         series: 4, source: [3,9], warnings: [5,15], genres: [1],
-        description: "An autistic, loveless aro priest struggles with giving advice to a guest that dehumanizes them." + "Intersectionality note: the main character is autistic.", intersectionalities: [1,2], length:2,
+        description: "An autistic, loveless aro priest struggles with giving advice to a guest that dehumanizes them. " 
+        + "The main character is autistic, the side character is a trans woman (although not obviously from this story) and has chronic pain from arthritis.", intersectionalities: [1,2], length:2,
         identities: [{sexuality: 3, romantic:1, gender:3, explicit: 1, prominance: 1},{sexuality: 4, romantic: 1, gender: 1, explicit: 3, prominance: 2}]
     },
     { 
