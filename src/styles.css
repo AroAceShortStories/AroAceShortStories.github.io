@@ -29,7 +29,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
     background-color: #A0AED9; 
 }
 .Dystopia {
-    background-color: B30000; 
-
+    background-color: #B30000; 
     color: white;
+}
+.Mystery {
+    background-color: darkgreen;
+    color: white;
+}
+.Thriller {
+    background-color:slateblue;
+    color: white;
+}
+.Historical-Fiction {
+    background-color: cornflowerblue;
 }
