@@ -14,6 +14,7 @@ export interface DetailStory {
     identities: DetailIdentity[];
     link?: string;    
     description: string;
+    intersectionalityDetail?: string;
     warning: Warning[];
     series?: Series;
 }

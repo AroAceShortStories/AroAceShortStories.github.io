@@ -10,6 +10,7 @@ export interface DataStory {
     link?: string;
     identities: DataIdentity[];
     description: string;
+    intersectionalityDetail?: string;
     warnings: number[];
     series?: number;
     length?: number;

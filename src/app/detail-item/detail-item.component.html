@@ -63,6 +63,7 @@
 
     <div id="description" class="card">
         <p class="description">{{story.description}}</p>
+        <p *ngIf="story.intersectionalityDetail">Intersectionality Note: {{story.intersectionalityDetail}}</p>
     </div>
     <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5">
         <div *ngFor="let warning of story.warning">
