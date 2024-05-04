@@ -21,5 +21,7 @@ export const SOURCE: DataSource[] = [
     { id: 10, source: "When Quiver Meets Quill", author: "https://aroworlds.com/fiction/collections/when-quiver-meets-quill/",
         storygraph: "https://app.thestorygraph.com/books/c4d68ca5-dfd3-49c4-9105-cbb59c3e7ed1", goodreads: "https://www.goodreads.com/book/show/56487334-when-quiver-meets-quill"},
     { id: 11, source: "Friends For Robots", goodreads: "https://www.goodreads.com/book/show/59690738-friends-for-robots",
-        storygraph: "https://app.thestorygraph.com/books/6efaf5ec-9081-41e3-ab74-1a023cd417c2", author: "https://mercfennwolfmoor.carrd.co/#friendsforrobots"}
+        storygraph: "https://app.thestorygraph.com/books/6efaf5ec-9081-41e3-ab74-1a023cd417c2", author: "https://mercfennwolfmoor.carrd.co/#friendsforrobots"},
+    { id: 12, source: "Being Ace", goodreads: "https://www.goodreads.com/book/show/65212707-being-ace?ref=nav_sb_ss_1_9",
+        storygraph: "https://app.thestorygraph.com/books/fba9cf0e-5bba-4f15-a221-fafca93a08fe", author: "http://madelinedyer.co.uk/being-ace/"}
 ]
