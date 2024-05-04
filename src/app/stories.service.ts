@@ -166,6 +166,7 @@ export class StoriesService {
       identities: this.getDetailIdentities(story.identities),
       warning: this.getWarnings(story.warnings),
       description: story.description,
+      intersectionalityDetail: story.intersectionalityDetail,
       series: { id: story.series, series: this.getSeriesName(story.series)}
     }
     return detailStory;
