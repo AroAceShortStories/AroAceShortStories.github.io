@@ -303,7 +303,7 @@ export const STORIES: DataStory[] = [
         intersectionalityDetail: "Suki is a trans woman."
     },
     { 
-        id: 54, title: "The Complexity of Human Decency", author: 6, series: 4, source: [4,9], 
+        id: 54, title: "The Complexity of Human Decency", author: 6, series: 4, source: [3,9], 
         link: "https://aroworlds.com/2020/07/14/fiction-the-complexity-of-human-decency/", genres: [1], 
         warnings: [5,7,14], identities: [{sexuality: 7, romantic: 1, gender: 1, explicit: 2, prominance: 1}, {sexuality: 3, romantic: 1, gender: 3, explicit: 2, prominance: 1}], 
         description: "Suki left home to escape amatonormativity and goes to a rainy, capitalistic city. ", intersectionalityDetail: "Suki is a trans woman.", intersectionalities: [2]
@@ -312,7 +312,7 @@ export const STORIES: DataStory[] = [
         id: 55, title: "If Absurd Works", author: 6, link: "https://aroworlds.com/2020/08/04/fiction-if-absurd-works/", genres: [1], 
         description: "Suki returns to her amatonormative home to visit her sick mother.", intersectionalityDetail: "Suki is a trans woman",
         warnings: [5,7,19,14], intersectionalities: [2], 
-        identities: [{sexuality: 7, romantic: 1, gender: 1, explicit: 2, prominance: 1}], series: 4, source: [4,9]
+        identities: [{sexuality: 7, romantic: 1, gender: 1, explicit: 2, prominance: 1}], series: 4, source: [3,9]
     },
     { 
         id: 56, title: "Leaving", author: 6, link: "https://aroworlds.com/2019/01/10/hallo-aro-leaving-k-a-cook/", length: 3, source: [3,4,9,10], warnings: [5,14],
