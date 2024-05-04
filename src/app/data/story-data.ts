@@ -520,5 +520,35 @@ export const STORIES: DataStory[] = [
   {
         id: 90, title: "The Shimmering Prayer of Sûkiurâq", author: 44, intersectionalities: [2], genres: [1], length: 1, warnings: [2, 16], 
         identities: [{gender: 3, sexuality: 6, romantic: 1, prominance: 1, explicit: 2}], description: "A teen wants to become a magical dancer."
+  },
+  {
+        id: 91, title: "Unspoken", author: 6, intersectionalities: [2], genres: [5], source: [4], length: 3, link: "https://aroworlds.com/2019/01/05/hallo-aro-unspoken-k-a-cook/",
+        description: "An allo-aro considers how to ask a friend for a sexual queerplatonic relationship.", warnings: [],
+        identities: [{sexuality: 4, romantic: 1, gender: 6, explicit: 1, prominance: 1}], intersectionalityDetail: "Main character is agender."
+  },
+  {
+        id: 92, title: "Existence", author: 6, link: "https://aroworlds.com/2019/03/13/hallo-aro-existence-k-a-cook/", length: 3, source: [4],
+        identities: [{sexuality: 5, romantic: 1, gender: 6, explicit: 1, prominance: 1},{sexuality: 1, romantic: 1, gender: 1, explicit: 1, prominance: 2}],
+        description: "An allo-aro comes to terms with the difficulty of finding the aromantic identity.", warnings: [], genres: [5], intersectionalities: [1]
+  },
+  {
+        id: 93, title: "Neuronormative", author: 6, link: "https://aroworlds.com/2019/07/12/hallo-aro-neuronormative-k-a-cook/", genres: [5],
+        description: "An autistic allo-aro struggles with the expectations of society.", intersectionalities: [1], warnings: [], length: 3,
+        intersectionalityDetail: "Autism", identities: [{sexuality: 4, romantic: 1, gender: 5, prominance: 1, explicit: 1}], source: [4]
+  },
+  {
+        id: 94, title: "Loveless", author: 6, link: "https://aroworlds.com/2019/08/13/hallo-aro-loveless-k-a-cook/", series: 6, genres: [1],
+        description: "An aromantic man discusses his feelings of lovelessness.", warnings: [7], source: [4], intersectionalities: [],
+        identities: [{sexuality: 5, romantic: 1, gender: 2, explicit: 2, prominance: 1}], length: 3
+  },
+  {
+        id: 95, title: "Question", author: 6, link: "https://aroworlds.com/2020/12/30/hallo-aro-question-k-a-cook/", length: 3, genres: [5],
+        identities: [{romantic: 1, sexuality: 4, gender: 5, explicit: 1, prominance: 1}], intersectionalities: [], source: [4], warnings: [14,12],
+        description: "Character addresses the difficulties from facing family members' amatonormativity."
+  },
+  {
+        id: 96, title: "Antagonist", author: 6, link: "https://aroworlds.com/2021/11/08/hallo-aro-antagonist-k-a-cook/", genres: [5],
+        identities: [{romantic: 1, sexuality: 7, gender: 2, explicit: 1, prominance: 1}], intersectionalities: [2], warnings: [25,18],
+        description: "A trans aro man realises he's been cast as the villain.", intersectionalityDetail: "Trans man", source: [4]
   }
  ]
