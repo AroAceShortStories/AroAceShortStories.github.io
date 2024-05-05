@@ -522,7 +522,7 @@ export const STORIES: DataStory[] = [
         identities: [{gender: 3, sexuality: 6, romantic: 1, prominance: 1, explicit: 2}], description: "A teen wants to become a magical dancer."
   },
   {
-        id: 91, title: "Unspoken", author: 6, intersectionalities: [2], genres: [5], source: [4], length: 3, link: "https://aroworlds.com/2019/01/05/hallo-aro-unspoken-k-a-cook/",
+        id: 91, title: "Unspoken", author: 6, intersectionalities: [2], genres: [5], source: [4,10], length: 3, link: "https://aroworlds.com/2019/01/05/hallo-aro-unspoken-k-a-cook/",
         description: "An allo-aro considers how to ask a friend for a sexual queerplatonic relationship.", warnings: [],
         identities: [{sexuality: 4, romantic: 1, gender: 6, explicit: 1, prominance: 1}], intersectionalityDetail: "Main character is agender."
   },
@@ -538,7 +538,7 @@ export const STORIES: DataStory[] = [
   },
   {
         id: 94, title: "Loveless", author: 6, link: "https://aroworlds.com/2019/08/13/hallo-aro-loveless-k-a-cook/", series: 6, genres: [1],
-        description: "An aromantic man discusses his feelings of lovelessness.", warnings: [7], source: [4], intersectionalities: [],
+        description: "An aromantic man discusses his feelings of lovelessness.", warnings: [7], source: [4,10], intersectionalities: [],
         identities: [{sexuality: 5, romantic: 1, gender: 2, explicit: 2, prominance: 1}], length: 3
   },
   {
@@ -550,5 +550,20 @@ export const STORIES: DataStory[] = [
         id: 96, title: "Antagonist", author: 6, link: "https://aroworlds.com/2021/11/08/hallo-aro-antagonist-k-a-cook/", genres: [5],
         identities: [{romantic: 1, sexuality: 7, gender: 2, explicit: 1, prominance: 1}], intersectionalities: [2], warnings: [25,18],
         description: "A trans aro man realises he's been cast as the villain.", intersectionalityDetail: "Trans man", source: [4]
+  },
+  {
+        id: 97, title: "Pressure, Side One", author: 6, link: "https://aroworlds.com/2020/05/19/hallo-aro-pressure-side-one-k-a-cook/", genres: [5],
+        identities: [{romantic: 1, sexuality: 6, explicit: 1, gender: 6, prominance: 1}], warnings: [14, 25], intersectionalities: [2], length:3,
+        description: "Reflections of an aromantic bisexual in an amatonormative, sex-negative world.", source: [4]
+  },
+  {
+        id: 98, title: "Pressure, Side Two", author: 6, link: "https://aroworlds.com/2020/06/23/hallo-aro-pressure-side-two-k-a-cook/", length: 3,
+        identities: [{romantic: 1, sexuality: 4, gender: 5, prominance: 1, explicit: 1}], intersectionalities: [], source: [4], genres: [5],
+        description: "Reflections of an allo-aro in aromantic spaces favouring ace-aro experiences.", warnings: []
+  },
+  {
+        id: 99, title: "The Wind and the Stars", author: 6, link: "https://aroworlds.com/2018/08/15/the-wind-and-the-stars-k-a-cook/",
+        identities: [{romantic: 1, sexuality: 1, gender: 6, explicit: 2, prominance: 1}], genres: [1], warnings: [], intersectionalities: [2],
+        description: "A play on the fairy tale structure as an aro-ace protagonist questions assumptions on life.", source: [10]
   }
  ]
