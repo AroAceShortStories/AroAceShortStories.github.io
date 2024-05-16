@@ -6,7 +6,6 @@ import { DataGenre } from '../interfaces/data-structure/data-genre';
 import { DataRomantic } from '../interfaces/data-structure/data-romantic';
 import { DataSexuality } from '../interfaces/data-structure/data-sexuality';
 import { DataExplicit } from '../interfaces/data-structure/data-explicit';
-import { DropdownSelects } from '../interfaces/story-structure/dropdown-selects';
 import { DataIntersectionalities } from '../interfaces/data-structure/data-intersectionalities';
 import { Filters } from '../interfaces/story-structure/filters';
 @Component({
@@ -26,6 +25,7 @@ export class ListViewComponent {
   explicits: DataExplicit[] = [];
   intersectionalitys: DataIntersectionalities[] = [];
   aboutRoute: string = "./about"
+  testData: any;
 
   constructor(private storyService: StoriesService,
     private route: ActivatedRoute) {}
@@ -37,6 +37,11 @@ export class ListViewComponent {
     this.source = Number.isNaN(s) ? undefined : s;
     let se = parseInt(this.route.snapshot.paramMap.get('series')!);
     this.series = Number.isNaN(se) ? undefined : se;
+    this.storyService.getDataTest().subscribe((data) =>{
+      this.testData = data, (error: any) => {
+        console.error("There was a error retriving the data;", error)
+      }
+    });
     
     this.setAboutLinkURL();
     this.getListStories(this.author, this.source, this.series);

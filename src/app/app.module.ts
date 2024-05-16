@@ -15,6 +15,7 @@ import { SearchBarComponent } from './list-view/search-bar/search-bar.component'
 import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './about/about.component';
 import { LengthBadgeComponent } from './length-badge/length-badge.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { LengthBadgeComponent } from './length-badge/length-badge.component';
     NgbModule,
     ListSelectComponent,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

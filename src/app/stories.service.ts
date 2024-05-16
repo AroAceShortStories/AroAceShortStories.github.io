@@ -26,13 +26,21 @@ import { DataIntersectionalities } from './interfaces/data-structure/data-inters
 import { INTERSECTIONALITY } from './data/intersectionality-data';
 import { Source } from './interfaces/story-structure/source';
 import { LENGTH } from './data/length-data';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class StoriesService {
+  private dataUrl = 'http://localhost:3000/test';  // The URL to the backend endpoint
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
+
+  getDataTest(): Observable<any[]> {
+
+    return this.http.get<any[]>(this.dataUrl);    // Fetch data from the backend
+  }
 
   getGenreList(): DataGenre[] {
     return GENRE;
