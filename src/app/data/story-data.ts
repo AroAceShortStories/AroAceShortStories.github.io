@@ -585,7 +585,9 @@ export const STORIES: DataStory[] = [
   },
   {
         id: 103, title: "Certain Eldritch Artefacts", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/certain-eldritch-artefacts-k.-a.-cook.pdf",
-        source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+        source: [13], warnings: [15,20], genres: [1], intersectionalities: [1], length: 2, 
+        intersectionalityDetail: "The main character is autistic and dispraxic (described as divergent)",
+        identities: [{gender: 2, sexuality: 5, romantic: 1, prominance: 1, explicit: 3}], description: ""
   },
   {
         id: 104, title: "Love in the House of the Ravens", author: 6, link: "https://aroworlds.com/wp-content/uploads/2021/06/love-in-the-house-of-the-ravens-k.-a.-cook.pdf",
