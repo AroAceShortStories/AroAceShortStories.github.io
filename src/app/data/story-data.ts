@@ -297,13 +297,13 @@ export const STORIES: DataStory[] = [
     },
     { 
         id: 53, title: "Abrasive", author: 6, length: 3, series: 4, link: "https://aroworlds.com/2020/07/07/hallo-aro-abrasive-k-a-cook/", 
-        source: [4,3,9], warnings: [5,7,14], genres: [1],
+        source: [4,3,9,13], warnings: [5,7,14], genres: [1],
         intersectionalities: [2], identities: [{sexuality: 7, romantic: 1, gender: 1, explicit: 2, prominance: 1}], 
         description: "Suki, a forthright allo aro woman, has to deal with her family looking down on her for turning down a romantic proposal from a sexual partner.",
         intersectionalityDetail: "Suki is a trans woman."
     },
     { 
-        id: 54, title: "The Complexity of Human Decency", author: 6, series: 4, source: [3,9], 
+        id: 54, title: "The Complexity of Human Decency", author: 6, series: 4, source: [3,9,13], 
         link: "https://aroworlds.com/2020/07/14/fiction-the-complexity-of-human-decency/", genres: [1], 
         warnings: [5,7,14], identities: [{sexuality: 7, romantic: 1, gender: 1, explicit: 2, prominance: 1}, {sexuality: 3, romantic: 1, gender: 3, explicit: 2, prominance: 1}], 
         description: "Suki left home to escape amatonormativity and goes to a rainy, capitalistic city. ", intersectionalityDetail: "Suki is a trans woman.", intersectionalities: [2]
@@ -312,7 +312,7 @@ export const STORIES: DataStory[] = [
         id: 55, title: "If Absurd Works", author: 6, link: "https://aroworlds.com/2020/08/04/fiction-if-absurd-works/", genres: [1], 
         description: "Suki returns to her amatonormative home to visit her sick mother.", intersectionalityDetail: "Suki is a trans woman",
         warnings: [5,7,19,14], intersectionalities: [2], 
-        identities: [{sexuality: 7, romantic: 1, gender: 1, explicit: 2, prominance: 1}], series: 4, source: [3,9]
+        identities: [{sexuality: 7, romantic: 1, gender: 1, explicit: 2, prominance: 1}], series: 4, source: [3,9,13]
     },
     { 
         id: 56, title: "Leaving", author: 6, link: "https://aroworlds.com/2019/01/10/hallo-aro-leaving-k-a-cook/", length: 3, source: [3,4,9,10], warnings: [5,14],
@@ -327,26 +327,26 @@ export const STORIES: DataStory[] = [
     },
     { 
         id: 58,title: "The Sorcerous Compendium of Postmortem Query", author: 6, link: "https://aroworlds.com/marchverse/mara-and-esher-hill/the-sorcerous-compendium-of-postmortem-query/", genres: [1], intersectionalities: [2],
-        series: 4, source: [3,10], description: "A lithromantic girl seeks advice from the ghosts of members of her community who have died. ",
+        series: 4, source: [3,10,13], description: "A lithromantic girl seeks advice from the ghosts of members of her community who have died. ",
         intersectionalityDetail: "The main character is a trans woman and one of the side characters is a trans man.", warnings: [5,15], length:2,
         identities: [{romantic: 10, sexuality: 8, gender: 1, explicit: 2, prominance: 1},{sexuality: 6, romantic: 1, gender: 1, explicit: 2, prominance: 2},{sexuality: 3, romantic: 2, gender: 1, explicit: 2, prominance: 2},
         {sexuality:1, romantic: 1, gender: 2, explicit: 2,  prominance: 2},{romantic: 7, sexuality: 3, gender: 2, explicit: 2, prominance: 2},
         {sexuality: 3, romantic: 11, gender: 3, explicit: 2, prominance: 2},{sexuality: 1, romantic:1, gender:2,explicit:2,prominance:2}]
     },
     { 
-        id: 59, title: "The Mundane Progression of Premortem Colloquy", author: 6, link: "https://aroworlds.com/marchverse/mara-and-esher-hill/the-mundane-progression-of-premortem-colloquy/", source: [3], series: 4,
+        id: 59, title: "The Mundane Progression of Premortem Colloquy", author: 6, link: "https://aroworlds.com/marchverse/mara-and-esher-hill/the-mundane-progression-of-premortem-colloquy/", source: [3,13], series: 4,
         description: "A lithromantic girl and her autistic girlfriend have a conversation about their relationship. ",
         intersectionalityDetail: "The main character is a trans woman; the side character is autistic and has coeliac disease.", warnings: [5,15], genres: [1], intersectionalities: [1,2], 
         identities: [{sexuality: 8, romantic: 10, gender: 1, explicit: 2, prominance: 1},{sexuality: 8, romantic: 12, gender:1,explicit:2,prominance:2}]
     },
     { 
-        id: 60, title: "Friendship", author: 6, length: 3, link: "https://aroworlds.com/2019/01/08/hallo-aro-friendship-k-a-cook/", source: [3,4,10], genres: [1], intersectionalities: [],
+        id: 60, title: "Friendship", author: 6, length: 3, link: "https://aroworlds.com/2019/01/08/hallo-aro-friendship-k-a-cook/", source: [3,4,10,13], genres: [1], intersectionalities: [],
         description: "A sapphic aromantic girl seeks a partnership but not marriage and has a conversation with a dragon about a girl she likes.", warnings: [5,14], 
         identities: [{sexuality: 8, romantic: 1, gender: 1, explicit: 2, prominance: 1}], series: 5
     },
     { 
         id: 61, title: "Attraction", author: 6, length: 3, link: "https://aroworlds.com/2019/02/22/hallo-aro-attraction-k-a-cook/", 
-        source: [3,4,10], genres: [1], intersectionalities: [], warnings:[14], series:5,
+        source: [3,4,10,13], genres: [1], intersectionalities: [], warnings:[14], series:5,
         identities: [{sexuality: 8, romantic: 1, gender: 1,explicit: 2, prominance: 1}], 
         description: "A sapphic aromantic girl has a conversation with a dragon about the nature of romance and attraction."
     },
@@ -359,14 +359,14 @@ export const STORIES: DataStory[] = [
     },
     { 
         id: 63, title: "What Makes Us Human", author: 6, link: "https://aroworlds.com/marchverse/mara-and-esher-hill/what-makes-us-human/", 
-        series: 4, source: [3,9], warnings: [5,15], genres: [1],intersectionalities: [1,2], length:2,
+        series: 4, source: [3,9,13], warnings: [5,15], genres: [1],intersectionalities: [1,2], length:2,
         description: "An autistic, loveless aro priest struggles with giving advice to a guest that dehumanizes them.", 
         intersectionalityDetail: "The main character is autistic, the side character is a trans woman (although not obviously from this story) and has chronic pain from arthritis.", 
         identities: [{sexuality: 3, romantic:1, gender:3, explicit: 1, prominance: 1},{sexuality: 4, romantic: 1, gender: 1, explicit: 3, prominance: 2}]
     },
     { 
         id: 64, title: "Those With More", author: 6, link: "https://aroworlds.com/2020/09/13/book-edition-those-with-more/", 
-        length: 2, warnings: [5,14,4,20], series: 4, source: [3,9],genres: [1], intersectionalities: [1,2],
+        length: 2, warnings: [5,14,4,20], series: 4, source: [3,9,13],genres: [1], intersectionalities: [1,2],
         identities: [{sexuality: 7, romantic: 1, gender: 1, explicit: 1, prominance: 1},{sexuality: 3, romantic: 1, gender: 3, explicit: 1, prominance: 2},
             {sexuality: 8, romantic: 10, gender:1, explicit: 1, prominance:2},{sexuality: 1, romantic: 1, gender: 2, explicit: 1, prominance: 2}],             
         description: 'This is about a guiding priest struggling with the expectations and needs of members of her aromantic community ' 
@@ -382,7 +382,7 @@ export const STORIES: DataStory[] = [
     },
     { 
         id: 66, title: "Love is the Reckoning", author: 6, link: "https://aroworlds.com/2020/09/01/fiction-love-is-the-reckoning/", length: 2, 
-        genres: [1], intersectionalities: [1,2], series: 4, source: [9], warnings: [4,14,21,22], 
+        genres: [1], intersectionalities: [1,2], series: 4, source: [9,13], warnings: [4,14,21,22], 
         description: "After a suicide attempt, Esher left his home town to visit a monastery for treatment. Now, Esher returns at his sister’s request.",
         intersectionalityDetail: "The main character is an autistic trans man.",
         identities: [{sexuality: 1, romantic: 9, gender: 2, explicit: 1, prominance: 1},{sexuality: 1, romantic: 1, gender: 1, explicit: 1, prominance: 2},
@@ -392,11 +392,11 @@ export const STORIES: DataStory[] = [
         id: 67, title: "Ringbound", author:6, link: "https://aroworlds.com/marchverse/kit-and-amelia-march/ringbound/", 
         description: "A man has doubts the night before his wedding.",
         intersectionalityDetail: "The main character is an autistic trans man.", genres: [1], series: 4,
-        source: [3,9], warnings: [5,14], intersectionalities: [1,2], identities: [{sexuality: 8, romantic: 1, explicit: 2, gender: 2, prominance: 1}]
+        source: [3,9,13], warnings: [5,14], intersectionalities: [1,2], identities: [{sexuality: 8, romantic: 1, explicit: 2, gender: 2, prominance: 1}]
     },
     { 
         id: 68, title: "Absence of Language", author: 6, link: "https://aroworlds.com/marchverse/kit-and-amelia-march/absence-of-language/", 
-        series: 4, warnings: [18,9,23,24], source: [3,9], length: 2, genres: [1],
+        series: 4, warnings: [18,9,23,24], source: [3,9,13], length: 2, genres: [1],
         description: "A regretful gay aro man is given the words he need to put his experiences in context.",
         intersectionalityDetail: "Both characters are trans men, the main character is autistic.",  intersectionalities: [1,2], 
         identities: [{sexuality: 8, romantic: 1, gender: 2, explicit: 1, prominance: 1},{sexuality: 1, romantic: 13, gender: 2, explicit: 1, prominance: 2}]
@@ -409,7 +409,7 @@ export const STORIES: DataStory[] = [
     },
     { 
         id: 70, title: "Love Spells, Rainbows and Rosie", author: 6, link: "https://aroworlds.com/2020/09/22/fiction-love-spells-rainbows-and-rosie/", 
-        series: 4, genres: [1], warnings: [4,14], 
+        series: 4, genres: [1], warnings: [4,14], source: [13],
         description: "A witch shopkeeper deals with a fantasy version of Valentine’s Day coming up.",
         intersectionalityDetail: "The main character is a trans woman, although it is not specified in this story.",  intersectionalities: [2], 
         identities: [{sexuality: 8, romantic: 10, gender: 1, explicit: 1, prominance: 1}]
@@ -565,5 +565,62 @@ export const STORIES: DataStory[] = [
         id: 99, title: "The Wind and the Stars", author: 6, link: "https://aroworlds.com/2018/08/15/the-wind-and-the-stars-k-a-cook/",
         identities: [{romantic: 1, sexuality: 1, gender: 6, explicit: 2, prominance: 1}], genres: [1], warnings: [], intersectionalities: [2],
         description: "A play on the fairy tale structure as an aro-ace protagonist questions assumptions on life.", source: [10]
+  },
+  // complete these
+  {
+        id: 100, title: "Old Fashioned", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/old-fashioned-k.-a.-cook.pdf",
+        source: [13], warnings: [2], genres: [1], intersectionalities: [1], intersectionalityDetail: "A side character has an amputated leg.",
+        identities: [{romantic: 2, sexuality: 3, gender: 1, prominance: 1, explicit: 1},{romantic: 1, sexuality: 8, gender: 3, prominance: 2, explicit: 1}], 
+        description: "Amelia March is tired of suitors breaking into her home to profess their undying love for her.", series: 4
+  },
+  {
+        id: 101, title: "Conception", author: 6, link: "https://aroworlds.com/wp-content/uploads/2020/08/conception-k.-a.-cook.pdf",
+        source: [13], warnings: [15], genres: [1], intersectionalities: [1,2,3], series: 4, length: 2,
+        intersectionalityDetail: "The two main characters are trans and autistic, one has a prosthetic leg and is described as black.",
+        identities: [{gender: 1, sexuality: 3, romantic: 2, prominance: 1, explicit:3},{gender: 2, sexuality: 8, romantic: 1, prominance: 1, explicit: 3}], 
+        description: "Amelia Marsh is disconcerted to find her cousin on her doorstep, pregnant and with a sword."
+  },
+  {
+        id: 102, title: "Kin of Mind", author: 6, source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+  },
+  {
+        id: 103, title: "Certain Eldritch Artefacts", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/certain-eldritch-artefacts-k.-a.-cook.pdf",
+        source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+  },
+  {
+        id: 104, title: "Love in the House of the Ravens", author: 6, link: "https://aroworlds.com/wp-content/uploads/2021/06/love-in-the-house-of-the-ravens-k.-a.-cook.pdf",
+        source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+  },
+  {
+        id: 105, title: "One Strange Man", author: 6, source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+  },
+  {
+        id: 106, title: "The Morning After", author: 6, source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+  },
+  {
+        id: 107, title: "King's Pawn", author: 6, source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+  },
+  {
+        id: 108, title: "Scholar’s Gambit", author: 6, source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+  },
+  {
+        id: 109, title: "The Adventure King", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/the-adventurer-king-k.-a.-cook.pdf",
+        source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+  },
+  {
+        id: 110, title: "Their Courts of Crows", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/their-courts-of-crows-k.-a.-cook.pdf",
+        source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
+  },
+  {
+        id: 111, title: "Maybe When the Bones Crumble", author: 6, link: "https://aroworlds.com/wp-content/uploads/2020/08/maybe-when-the-bones-crumble-k.-a.-cook.pdf",
+        source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
+  },
+  {
+        id: 112, title: "A Prince of the Dead", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/a-prince-of-the-dead-k.-a.-cook.pdf",
+        source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
+  },
+  {
+        id: 113, title: "The King of Gears and Bone", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/the-king-of-gears-and-bone-k.-a.-cook.pdf",
+        source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
   }
  ]

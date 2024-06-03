@@ -30,6 +30,10 @@ yarn-error.log
 .history/*
 /src - Copy
 
+# For some reason stayed - will remove eventually
+/server
+.env
+
 # Miscellaneous
 /.angular/cache
 .sass-cache/
