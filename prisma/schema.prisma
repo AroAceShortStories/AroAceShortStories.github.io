@@ -88,6 +88,12 @@ model Source {
   author      String                  @db.VarChar(255)
 }
 
+model SourceStory {
+  sourceId    Int
+  storyId     Int
+  @@unique([sourceId, storyId], name: "singleOccurenceOfStoryFromSource")
+}
+
 model Story {
   id          Int                    @id @default(autoincrement())
   title       String                  @db.VarChar(255)
