@@ -1,0 +1,118 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Author {
+  id          Int                    @id @default(autoincrement())
+  name        String                  @db.VarChar(255)
+}
+
+model Explicit {
+  id          Int                    @id @default(autoincrement())
+  type        String                  @db.VarChar(20)
+}
+
+model Gender {
+ id          Int                    @id @default(autoincrement())
+ gender       String                @db.VarChar(20)
+}
+
+model Genre {
+  id          Int                    @id @default(autoincrement())
+  genre       String                @db.VarChar(30)
+}
+
+model Identity {
+  romantic    Romantic              @relation(fields: [romanticId], references: [id])
+  romanticId  Int
+  sexuality   Sexuality              @relation(fields: [sexualityId], references: [id])
+  sexualityId Int
+  gender      Gender                @relation(fields: [genderId], references: [id])
+  genderId    Int
+  explicit    Explicit              @relation(fields: [explicitId], references: [id])
+  explicitId  Int
+  prominance  Prominance            @relation(fields: [prominanceId], references: [id])
+  prominanceId  Int
+}
+
+model Intersectionality {
+  id          Int                    @id @default(autoincrement())
+  intersectionality  String          @db.VarChar(50)
+}
+
+model Length {
+  id          Int                    @id @default(autoincrement())
+  length      String                  @db.VarChar(20)
+  shortLength String                  @db.VarChar(3)
+}
+
+model Prominance {
+  id          Int                    @id @default(autoincrement())
+  prominance  String                  @db.VarChar(10)
+}
+
+model Romantic {
+  id          Int                    @id @default(autoincrement())
+  romantic    String                  @db.VarChar(20)
+}
+
+model Series {
+  id          Int                    @id @default(autoincrement())
+  series      String                  @db.VarChar(100)
+  storygraph  String                  @db.VarChar(255)
+  goodreads   String                  @db.VarChar(255)
+  author      String                  @db.VarChar(255)
+}
+
+model Sexuality {
+  id          Int                    @id @default(autoincrement())
+  sexuality   String                  @db.VarChar(20)
+}
+
+model Source {
+  id          Int                    @id @default(autoincrement())
+  source      String                  @db.VarChar(100)
+  storygraph  String                  @db.VarChar(255)
+  goodreads   String                  @db.VarChar(255)
+  author      String                  @db.VarChar(255)
+}
+
+model Story {
+  id          Int                    @id @default(autoincrement())
+  title       String                  @db.VarChar(255)
+  author      Author                  @relation(fields: [authorId], references: [id])
+  authorId    Int
+  source      Source[]?                 @relation(fields: [sourceId], references: [id])
+  sourceId    Int[]?
+  genres      Genre[]                 @relation(fields: [genreIds], references: [id])
+  genreIds    Int[]
+  intersectionalities Intersectionality[] @relation(fields: [intersectionalityIds], references: [id])
+  intersectionalityIds Int[]
+  link        String?                   @db.VarChar(255)
+  identities  Identity[]                @relation(fields: [identityIds], references: [id])
+  identityIds Int[]
+  description String
+  intersectionalityDetail String?       @db.VarChar(255)
+  warnings     Warning[]                @relation(fields: [warningIds], references: [id])
+  warningIds    Int[]
+  series      Series?                   @relation(fields: [seriesId], references: [id])
+  seriesId    Int?
+  length      Length?                   @relation(fields: [lengthId], references: [id])
+  lengthId    Int?
+}
+
+model Warning {
+  id          Int                    @id @default(autoincrement())
+  warning   String                  @db.VarChar(30)
+}
