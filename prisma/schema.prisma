@@ -31,6 +31,15 @@ model Gender {
 model Genre {
   id          Int                    @id @default(autoincrement())
   genre       String                @db.VarChar(30)
+  stories       GenreStory[]
+}
+
+model GenreStory {
+  genre       Genre                 @relation(fields: [genreId], references: [id])
+  genreId     Int
+  story       Story                 @relation(fields: [storyId], references: [id])
+  storyId     Int
+  @@id([genreId, storyId])
 }
 
 model Identity {
@@ -44,11 +53,29 @@ model Identity {
   explicitId  Int
   prominance  Prominance            @relation(fields: [prominanceId], references: [id])
   prominanceId  Int
+  stories     IdentityStory[]
+}
+
+model IdentityStory {
+  identity        Identity          @relation(fields: [identityId], references: [id])
+  identityId      Int
+  story           Story             @relation(fields: [storyId], references: [id])
+  storyId         Int
+  @@id([identityId, storyId])
 }
 
 model Intersectionality {
   id          Int                    @id @default(autoincrement())
   intersectionality  String          @db.VarChar(50)
+  stories           IntersectionalityStory[]
+}
+
+model IntersectionalityStory {
+  intersectionality         Intersectionality     @relation(fields: [intersectionalityId], references: [id])
+  intersectionalityId       Int
+  story                     Story                 @relation(fields: [storyId], references: [id])
+  storyId                   Int
+  @@id([intersectionalityId, storyId])
 }
 
 model Length {
@@ -86,12 +113,15 @@ model Source {
   storygraph  String                  @db.VarChar(255)
   goodreads   String                  @db.VarChar(255)
   author      String                  @db.VarChar(255)
+  stories     SourceStory[]
 }
 
 model SourceStory {
-  sourceId    Int
+  source      Source                @relation(fields: [sourceId], references: [id])
+  sourceId    Int   
+  storygraph  Story                 @relation(fields: [storyId], references: [id])       
   storyId     Int
-  @@unique([sourceId, storyId], name: "singleOccurenceOfStoryFromSource")
+  @@id([sourceId, storyId])
 }
 
 model Story {
@@ -99,19 +129,14 @@ model Story {
   title       String                  @db.VarChar(255)
   author      Author                  @relation(fields: [authorId], references: [id])
   authorId    Int
-  source      Source[]?                 @relation(fields: [sourceId], references: [id])
-  sourceId    Int[]?
-  genres      Genre[]                 @relation(fields: [genreIds], references: [id])
-  genreIds    Int[]
-  intersectionalities Intersectionality[] @relation(fields: [intersectionalityIds], references: [id])
-  intersectionalityIds Int[]
+  source      SourceStory[]  
+  genres      GenreStory[]                 
+  intersectionalities IntersectionalityStory[] 
   link        String?                   @db.VarChar(255)
-  identities  Identity[]                @relation(fields: [identityIds], references: [id])
-  identityIds Int[]
+  identities  IdentityStory[]  
   description String
   intersectionalityDetail String?       @db.VarChar(255)
-  warnings     Warning[]                @relation(fields: [warningIds], references: [id])
-  warningIds    Int[]
+  warnings     WarningStory[]              
   series      Series?                   @relation(fields: [seriesId], references: [id])
   seriesId    Int?
   length      Length?                   @relation(fields: [lengthId], references: [id])
@@ -121,4 +146,13 @@ model Story {
 model Warning {
   id          Int                    @id @default(autoincrement())
   warning   String                  @db.VarChar(30)
+  stories     WarningStory[]
+}
+
+model WarningStory {
+  warning     Warning                   @relation(fields: [warningId], references: [id])
+  warningId   Int
+  story       Story                     @relation(fields: [storyId], references: [id])
+  storyId     Int
+  @@id([warningId, storyId])
 }
