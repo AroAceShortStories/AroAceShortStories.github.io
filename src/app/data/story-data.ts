@@ -592,7 +592,7 @@ export const STORIES: DataStory[] = [
   },
   {
         id: 104, title: "Love in the House of the Ravens", author: 6, link: "https://aroworlds.com/wp-content/uploads/2021/06/love-in-the-house-of-the-ravens-k.-a.-cook.pdf",
-        source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+        source: [13], warnings: [], genres: [1], intersectionalities: [], identities: [], description: ""
   },
   {
         id: 105, title: "One Strange Man", author: 6, source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
