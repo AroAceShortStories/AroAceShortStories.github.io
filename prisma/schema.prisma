@@ -16,16 +16,19 @@ datasource db {
 model Author {
   id          Int                    @id @default(autoincrement())
   name        String                  @db.VarChar(255)
+  stories     Story[]
 }
 
 model Explicit {
   id          Int                    @id @default(autoincrement())
   type        String                  @db.VarChar(20)
+  identities  Identity[]
 }
 
 model Gender {
  id          Int                    @id @default(autoincrement())
  gender       String                @db.VarChar(20)
+ identities   Identity[]
 }
 
 model Genre {
@@ -43,6 +46,7 @@ model GenreStory {
 }
 
 model Identity {
+  id          Int                    @id @default(autoincrement())
   romantic    Romantic              @relation(fields: [romanticId], references: [id])
   romanticId  Int
   sexuality   Sexuality              @relation(fields: [sexualityId], references: [id])
@@ -82,16 +86,19 @@ model Length {
   id          Int                    @id @default(autoincrement())
   length      String                  @db.VarChar(20)
   shortLength String                  @db.VarChar(3)
+  stories     Story[]
 }
 
 model Prominance {
   id          Int                    @id @default(autoincrement())
   prominance  String                  @db.VarChar(10)
+  identities  Identity[]
 }
 
 model Romantic {
   id          Int                    @id @default(autoincrement())
   romantic    String                  @db.VarChar(20)
+  identities  Identity[]
 }
 
 model Series {
@@ -100,11 +107,13 @@ model Series {
   storygraph  String                  @db.VarChar(255)
   goodreads   String                  @db.VarChar(255)
   author      String                  @db.VarChar(255)
+  stories     Story[]
 }
 
 model Sexuality {
   id          Int                    @id @default(autoincrement())
   sexuality   String                  @db.VarChar(20)
+  identities  Identity[]
 }
 
 model Source {
