@@ -585,45 +585,50 @@ export const STORIES: DataStory[] = [
   },
   {
         id: 103, title: "Certain Eldritch Artefacts", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/certain-eldritch-artefacts-k.-a.-cook.pdf",
-        source: [13], warnings: [15,20], genres: [1], intersectionalities: [1,2], length: 2, 
+        source: [13], warnings: [15,20], genres: [1], intersectionalities: [1,2], length: 2, series: 4,
         intersectionalityDetail: "The main character is autistic and dispraxic (described as divergent) and mentions making his own penis.",
         identities: [{gender: 2, sexuality: 5, romantic: 1, prominance: 1, explicit: 3}], 
         description: "Darius is newly graduated and in search for a non-annoying talking sword."
   },
   {
         id: 104, title: "Love in the House of the Ravens", author: 6, link: "https://aroworlds.com/wp-content/uploads/2021/06/love-in-the-house-of-the-ravens-k.-a.-cook.pdf",
-        source: [13], warnings: [], genres: [1], intersectionalities: [1,2,3], identities: [], description: "Described as having brown skin"
+        source: [13], warnings: [], genres: [1], intersectionalities: [1,2,3], length: 2, series: 4,
+        identities: [{sexuality: 5, romantic: 1, gender: 2, prominance: 1, explicit: 1},{sexuality:5, gender: 6, romantic: 1, prominance: 2, explicit: 1}], 
+        intersectionalityDetail: "Main character is described as having brown skin, having a body that doesn't indicate being a man, and being autistic.", 
+        description: "Davius seeks help from his friends when he is asked to be in a romantic relationship."
   },
   {
-        id: 105, title: "One Strange Man", author: 6, source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+        id: 105, title: "One Strange Man", author: 6, source: [13], warnings: [], genres: [1], intersectionalities: [1], 
+        intersectionalityDetail: "Described as divergent, an in-universe word to mean autistic.", length: 2,
+        identities: [{sexuality: 5, romantic: 1, gender: 2, prominance: 1, explicit: 1},{sexuality:5, gender: 6, romantic: 1, prominance: 2, explicit: 1}], 
+        description: "Darius resolves to steal back a family heirloom for a friend.", series: 4
   },
   {
-        id: 106, title: "The Morning After", author: 6, source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+        id: 106, title: "The Morning After", author: 6, source: [13], warnings: [15], genres: [1], length: 2,
+        intersectionalities: [1], intersectionalityDetail: "Described as divergent, an in-universe word to mean autistic.",
+        identities: [{sexuality: 5, romantic: 1, gender: 2, prominance: 1, explicit: 1},{sexuality:5, gender: 6, romantic: 1, prominance: 2, explicit: 3}], 
+        description: "Still aching from last night, Darius is woken by a knocking at the door.", series: 4
   },
   {
-        id: 107, title: "King's Pawn", author: 6, source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+        id: 107, title: "The Adventure King", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/the-adventurer-king-k.-a.-cook.pdf",
+        source: [13], genres: [1], intersectionalities: [1,2], intersectionalityDetail: "Main character is autistic, and is misgendered",
+        identities: [{sexuality: 5, romantic: 1, gender: 2, prominance: 1, explicit: 2}], length: 2, 
+        description: "Darius has an unexpected meeting with potential employers.", series: 4, warnings: []
   },
   {
-        id: 108, title: "Scholar’s Gambit", author: 6, source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
-  },
-  {
-        id: 109, title: "The Adventure King", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/the-adventurer-king-k.-a.-cook.pdf",
-        source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
-  },
-  {
-        id: 110, title: "Their Courts of Crows", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/their-courts-of-crows-k.-a.-cook.pdf",
+        id: 108, title: "Their Courts of Crows", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/their-courts-of-crows-k.-a.-cook.pdf",
         source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
   },
   {
-        id: 111, title: "Maybe When the Bones Crumble", author: 6, link: "https://aroworlds.com/wp-content/uploads/2020/08/maybe-when-the-bones-crumble-k.-a.-cook.pdf",
+        id: 109, title: "Maybe When the Bones Crumble", author: 6, link: "https://aroworlds.com/wp-content/uploads/2020/08/maybe-when-the-bones-crumble-k.-a.-cook.pdf",
         source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
   },
   {
-        id: 112, title: "A Prince of the Dead", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/a-prince-of-the-dead-k.-a.-cook.pdf",
+        id: 110, title: "A Prince of the Dead", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/a-prince-of-the-dead-k.-a.-cook.pdf",
         source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
   },
   {
-        id: 113, title: "The King of Gears and Bone", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/the-king-of-gears-and-bone-k.-a.-cook.pdf",
+        id: 111, title: "The King of Gears and Bone", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/the-king-of-gears-and-bone-k.-a.-cook.pdf",
         source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
   }
  ]
