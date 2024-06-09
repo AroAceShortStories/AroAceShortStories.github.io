@@ -617,18 +617,27 @@ export const STORIES: DataStory[] = [
   },
   {
         id: 108, title: "Their Courts of Crows", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/their-courts-of-crows-k.-a.-cook.pdf",
-        source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
+        source: [13], warnings: [], intersectionalities: [], genres: [1], identities: [{romantic:1,sexuality:5,explicit:3,prominance:1,gender:2}], 
+        description: "The two leaders of a civil war meet to discus it's end.", series: 6
   },
   {
         id: 109, title: "Maybe When the Bones Crumble", author: 6, link: "https://aroworlds.com/wp-content/uploads/2020/08/maybe-when-the-bones-crumble-k.-a.-cook.pdf",
-        source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
+        source: [13], warnings: [18,15,12], intersectionalities: [1,2], intersectionalityDetail: "Character is trans, has chronic pain and is autistic.", 
+        genres: [1], identities: [{sexuality:1,romantic:1,prominance:1,gender:2,explicit:2}], series: 6,
+        description: "A prince with chronic pain struggles with other's reactions to it."
   },
   {
         id: 110, title: "A Prince of the Dead", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/a-prince-of-the-dead-k.-a.-cook.pdf",
-        source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
+        source: [13], warnings: [4,15], intersectionalities: [], genres: [1], length: 2, series: 6,
+        identities: [{gender:2,romantic:1,sexuality:5,prominance:1,explicit:2},{gender: 1, sexuality: 3, romantic: 2, prominance: 2, explicit:3},
+            {gender: 2, sexuality: 8, romantic: 1, prominance: 2, explicit: 3}], 
+        description: "The war is over, but prince Paide is trapped in a decaying body. In this story a zombie is used as a metaphor for disability."
   },
   {
         id: 111, title: "The King of Gears and Bone", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/the-king-of-gears-and-bone-k.-a.-cook.pdf",
-        source: [13], warnings: [], intersectionalities: [], genres: [], identities: [], description: ""
+        source: [13], warnings: [15,4], intersectionalities: [1,2], genres: [1], series: 6, length: 2,
+        intersectionalityDetail: "Main character is trans and autistic with chronic pain, other character is a zombie as a metaphor for disability",         
+        identities: [{gender:2,sexuality:1,romantic:1,prominance:1,explicit:2},{gender:2,sexuality:5,romantic:1,explicit:3,prominance:1}], 
+        description: "Prince Einas is asked to meet his brother, where he can finally explain he does not want to be king."
   }
  ]
