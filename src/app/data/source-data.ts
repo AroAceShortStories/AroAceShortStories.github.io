@@ -23,5 +23,8 @@ export const SOURCE: DataSource[] = [
     { id: 11, source: "Friends For Robots", goodreads: "https://www.goodreads.com/book/show/59690738-friends-for-robots",
         storygraph: "https://app.thestorygraph.com/books/6efaf5ec-9081-41e3-ab74-1a023cd417c2", author: "https://mercfennwolfmoor.carrd.co/#friendsforrobots"},
     { id: 12, source: "Being Ace", goodreads: "https://www.goodreads.com/book/show/65212707-being-ace?ref=nav_sb_ss_1_9",
-        storygraph: "https://app.thestorygraph.com/books/fba9cf0e-5bba-4f15-a221-fafca93a08fe", author: "http://madelinedyer.co.uk/being-ace/"}
+        storygraph: "https://app.thestorygraph.com/books/fba9cf0e-5bba-4f15-a221-fafca93a08fe", author: "http://madelinedyer.co.uk/being-ace/"},
+    { id: 13, source: "Bones, Belts and Bewitchments", goodreads: "https://www.goodreads.com/book/show/201382515-bones-belts-and-bewitchments",
+        storygraph: "https://app.thestorygraph.com/books/e1d703ac-1e89-4131-9ea3-7a8ac89e4887", author: "https://aroworlds.com/marchverse/bones-belts-and-bewitchments/"
+    }
 ]
