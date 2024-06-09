@@ -581,7 +581,9 @@ export const STORIES: DataStory[] = [
         description: "Amelia Marsh is disconcerted to find her cousin on her doorstep, pregnant and with a sword."
   },
   {
-        id: 102, title: "Kin of Mind", author: 6, source: [13], warnings: [], genres: [], intersectionalities: [], identities: [], description: ""
+        id: 102, title: "Kin of Mind", author: 6, source: [13], warnings: [], genres: [1], intersectionalities: [1], 
+        intersectionalityDetail:"Character is autistic", series:4,
+        identities: [{gender:2,romantic:1,sexuality:5,prominance:1,explicit:3}], description: "Darius meets a dragon in his quest for a talking sword."
   },
   {
         id: 103, title: "Certain Eldritch Artefacts", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/certain-eldritch-artefacts-k.-a.-cook.pdf",
