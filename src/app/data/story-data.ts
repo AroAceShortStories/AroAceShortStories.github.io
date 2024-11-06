@@ -650,6 +650,6 @@ export const STORIES: DataStory[] = [
   {
         id: 123, title: "Trading Partners", author: 46, genres: [3], intersectionalities: [1], source: [14], warnings: [], 
         intersectionalityDetail: "From an anthology explicitly featuring neurodivergent protagonists, narrator is implied to be autistic.", 
-        identities: [{romantic: 1, sexuality: 1, gender: 1, prominance: 1, explicit: 1}], description: "First contact with aliens ends up in commerce."
+        identities: [{romantic: 1, sexuality: 1, gender: 1, prominance: 1, explicit: 2}], description: "First contact with aliens ends up in commerce."
   }
  ]
