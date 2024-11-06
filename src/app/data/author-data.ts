@@ -45,5 +45,6 @@ export const AUTHOR: DataAuthor[] = [
     { id: 42, name: "Lara Ameen"},
     { id: 43, name: "S.J. Taylor"},
     { id: 44, name: "S.L. Dove Cooper"},
-    { id: 45, name: "Michelle Kan"}
+    { id: 45, name: "Michelle Kan"},
+    { id: 46, name: "Jennifer R. Povey"}
 ]

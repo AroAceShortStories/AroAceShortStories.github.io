@@ -638,7 +638,7 @@ export const STORIES: DataStory[] = [
   {
         id: 111, title: "The King of Gears and Bone", author: 6, link: "https://aroworlds.com/wp-content/uploads/2019/09/the-king-of-gears-and-bone-k.-a.-cook.pdf",
         source: [13], warnings: [15,4], intersectionalities: [1,2], genres: [1], series: 6, length: 2,
-        intersectionalityDetail: "Main character is trans and autistic with chronic pain, other character is a zombie as a metaphor for disability",         
+        intersectionalityDetail: "Main character is trans and autistic with chronic pain, other character is a zombie as a metaphor for disability.",         
         identities: [{gender:2,sexuality:1,romantic:1,prominance:1,explicit:2},{gender:2,sexuality:5,romantic:1,explicit:3,prominance:1}], 
         description: "Prince Einas is asked to meet his brother, where he can finally explain he does not want to be king."
   },
@@ -646,5 +646,10 @@ export const STORIES: DataStory[] = [
         id: 112, title: "Come Drink With Me", author: 45, genres: [1], intersectionalities: [3], warnings: [2], 
         identities: [{romantic: 1, sexuality: 3, gender: 2, prominance: 1, explicit: 2},{romantic: 1, sexuality: 3, gender: 1, explicit: 2, prominance: 2}],
         description: "A Dragon and a Phoenix work in an Opera House.", intersectionalityDetail: "The setting is in a fantasy China."
+  },
+  {
+        id: 123, title: "Trading Partners", author: 46, genres: [3], intersectionalities: [1], source: [14], warnings: [], 
+        intersectionalityDetail: "From an anthology explicitly featuring neurodivergent protagonists, narrator is implied to be autistic.", 
+        identities: [{romantic: 1, sexuality: 1, gender: 1, prominance: 1, explicit: 1}], description: "First contact with aliens ends up in commerce."
   }
  ]
