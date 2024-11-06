@@ -15,6 +15,7 @@ import { SearchBarComponent } from './list-view/search-bar/search-bar.component'
 import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './about/about.component';
 import { LengthBadgeComponent } from './length-badge/length-badge.component';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,7 @@ import { LengthBadgeComponent } from './length-badge/length-badge.component';
     BrowserAnimationsModule,
     FormsModule
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
