@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Ace and Aro Stort Story Database';
+  title = 'Ace and Aro Short Story Database';
 }
