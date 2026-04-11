@@ -28,5 +28,8 @@ export const SOURCE: DataSource[] = [
         storygraph: "https://app.thestorygraph.com/books/e1d703ac-1e89-4131-9ea3-7a8ac89e4887", author: "https://aroworlds.com/marchverse/bones-belts-and-bewitchments/"
     },
     { id: 14, source: "The Neurodiversiverse: Alien Encounters", storygraph: "https://app.thestorygraph.com/books/ef8fde9f-b774-42f6-baea-f6b375f0052d", 
-        goodreads: "https://www.goodreads.com/book/show/216299539-the-neurodiversiverse"}
+        goodreads: "https://www.goodreads.com/book/show/216299539-the-neurodiversiverse"},
+    { id: 15, source: "Portalmania: Stories", storygraph: "https://app.thestorygraph.com/books/2efbbe14-8bcb-47e9-b822-ddb5b1ba393a",
+        goodreads: "https://www.goodreads.com/book/show/220161236-portalmania", author: "https://debbieurbanski.com/portalmania-stories/"
+    }
 ]

@@ -3,7 +3,7 @@ import { DataStory } from "../interfaces/data-structure/data-story";
 export const STORIES: DataStory[] = [
     { 
         id: 1, title: "Some Personal Arguments in Support of the BetterYou (Based on Early Interactions)", genres: [3, 4], warnings: [3,1,7,4], 
-        identities: [{ romantic: 3, sexuality: 1, gender: 1, prominance: 1, explicit: 1}], author: 1, intersectionalities: [1],
+        identities: [{ romantic: 3, sexuality: 1, gender: 1, prominance: 1, explicit: 1}], author: 1, intersectionalities: [1], source: [15],
         link: "http://strangehorizons.com/fiction/some-personal-arguments-in-support-of-the-betteryou-based-on-early-interactions/",
         description: "Dark story that showcases how society can marginalise minorities. Despite fantastical elements, the story feels very grounded in its details." +
         " The main character welcomes a BetterYou to replace her in aspects of her life that she fails to live up to society's standards.",
@@ -11,7 +11,7 @@ export const STORIES: DataStory[] = [
     },
     { 
         id: 2, title: "The Portal", author: 1, genres: [1], warnings: [1, 3, 4], link: "https://www.lightspeedmagazine.com/fiction/the-portal/",
-        identities: [{romantic: 3, sexuality: 1, gender: 1, prominance: 1, explicit: 1}], intersectionalities: [1],
+        identities: [{romantic: 3, sexuality: 1, gender: 1, prominance: 1, explicit: 1}], intersectionalities: [1], source: [15],
         description: "A story of conversion therapy where the narrator's voice tries to deal with their feelings through the " 
         + "medium of a story, involving a portal to another world.", intersectionalityDetail: "Main character has depression."
     },
@@ -143,7 +143,7 @@ export const STORIES: DataStory[] = [
     },
     { 
         id: 24, title: "The Dirty Golden Yellow House", author: 1, genres: [1,4], warnings: [13], link: "https://www.lightspeedmagazine.com/fiction/the-dirty-golden-yellow-house/",
-        identities: [{sexuality:1, romantic:3, gender:1, prominance:1, explicit:2}], intersectionalities: [], length: 2,
+        identities: [{sexuality:1, romantic:3, gender:1, prominance:1, explicit:2}], intersectionalities: [], length: 2, source: [15],
         description: "A story of a woman who doesn't want to have sex being repeatedly coerced into sex and eventually arranging for her husband to be eaten by a monster. " 
         + "It is more implied than outright stated that the woman is asexual, though the word is used in the story. The story is told non-linearly with narrator interjections." 
     },
@@ -427,7 +427,7 @@ export const STORIES: DataStory[] = [
     { 
         id: 73, title: "A Few Personal Observations On Portals", author: 1, link: "https://www.thesunmagazine.org/issues/503/a-few-personal-observations-on-portals", 
         identities: [{sexuality: 1, romantic: 3, gender: 1, explicit: 2, prominance: 1}],
-        genres: [1], intersectionalities: [], warnings: [], 
+        genres: [1], intersectionalities: [], warnings: [], source: [15],
         description: "A portal to another world appears in the bathroom of a house in a small town."
     },
     { 
@@ -651,5 +651,11 @@ export const STORIES: DataStory[] = [
         id: 123, title: "Trading Partners", author: 46, genres: [3], intersectionalities: [1], source: [14], warnings: [], 
         intersectionalityDetail: "From an anthology explicitly featuring neurodivergent protagonists, narrator is implied to be autistic.", 
         identities: [{romantic: 1, sexuality: 1, gender: 1, prominance: 1, explicit: 2}], description: "First contact with aliens ends up in commerce."
+  },
+  {
+        id: 124, title: "A Quiet Kind of Magic", author: 47, genres: [1], warnings: [], intersectionalities: [],
+        link: "https://ewambheim.wordpress.com/wp-content/uploads/2021/10/a-quiet-kind-of-magic.pdf", 
+        identities: [{romantic: 5, sexuality: 1, gender: 1, prominance: 1, explicit: 2},{romantic:5, sexuality: 1, gender: 2, prominance: 1, explicit:1}],
+        description: "A pair of troubled teens come to the local witches for help."
   }
  ]
