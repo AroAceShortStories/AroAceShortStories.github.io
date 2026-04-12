@@ -31,5 +31,10 @@ export const SOURCE: DataSource[] = [
         goodreads: "https://www.goodreads.com/book/show/216299539-the-neurodiversiverse"},
     { id: 15, source: "Portalmania: Stories", storygraph: "https://app.thestorygraph.com/books/2efbbe14-8bcb-47e9-b822-ddb5b1ba393a",
         goodreads: "https://www.goodreads.com/book/show/220161236-portalmania", author: "https://debbieurbanski.com/portalmania-stories/"
-    }
+    },
+    { id: 16, source: "Muneera and the Moon: Stories Inspired by Palestinian Folklore", storygraph: "https://app.thestorygraph.com/books/1cb96f0c-0b95-4b2f-b841-4b8ba9618a81",
+        goodreads: "https://www.goodreads.com/book/show/123227610-muneera-and-the-moon"
+    },
+    { id: 17, source: "Common Bonds 2: An Aromantic Speculative Anthology", storygraph: "https://app.thestorygraph.com/books/d5728357-ab6e-48bb-b4c5-f9f6bb59b840", 
+        goodreads: "https://www.goodreads.com/book/show/247511865-common-bonds-2", author: "https://claudiearseneault.com/common-bonds-2/"}
 ]

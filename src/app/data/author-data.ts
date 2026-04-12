@@ -47,5 +47,18 @@ export const AUTHOR: DataAuthor[] = [
     { id: 44, name: "S.L. Dove Cooper"},
     { id: 45, name: "Michelle Kan"},
     { id: 46, name: "Jennifer R. Povey"},
-    { id: 47, name: "E. Wambheim" }
+    { id: 47, name: "E. Wambheim" },
+    { id: 48, name: "May Barros" },
+    { id: 49, name: "Odessa Silver" },
+    { id: 50, name: "Alistair Robinson" },
+    { id: 51, name: "Cyrus Amelia Fisher" },
+    { id: 52, name: "Nico Martinez Nocito" },
+    { id: 53, name: "K.J. Isley" },
+    { id: 54, name: "Sophie A. Katz" },
+    { id: 55, name: "Yelena Crane" },
+    { id: 56, name: "Ren Oliveira" },
+    { id: 57, name: "Hannah Baxter" },
+    { id: 58, name: "S.M. Pearce" },
+    { id: 59, name: "Tunvey Mou" },
+    { id: 60, name: "Sonia Sulaiman" }
 ]
