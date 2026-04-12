@@ -657,5 +657,83 @@ export const STORIES: DataStory[] = [
         link: "https://ewambheim.wordpress.com/wp-content/uploads/2021/10/a-quiet-kind-of-magic.pdf", 
         identities: [{romantic: 5, sexuality: 1, gender: 1, prominance: 1, explicit: 2},{romantic:5, sexuality: 1, gender: 2, prominance: 1, explicit:1}],
         description: "A pair of troubled teens come to the local witches for help."
+  },
+  {
+        id: 125, title: "Create My Own Perfection", author: 13, genres: [1], warnings: [1,5], intersectionalities: [],
+        identities: [{romantic: 1, sexuality: 1, gender: 1, prominance: 1, explicit: 2}], 
+        description: "Medusa is the groundskeeper of a school, and just wants to be left alone with her friends."
+  },
+  {
+        id: 126, title: "Golden Hue", author: 48, genres: [1], warnings: [], intersectionalities: [],
+        identities: [{romantic: 5, sexuality: 2, gender: 1, prominance: 1, explicit: 1}],
+        description: "A hospital patient with wounds with a golden hue leads Bianca into the Wilds to face the beasts for answers."
+  },
+  {
+        id: 127, title: "Of Spells and Love", author: 49, genres: [1], warnings: [], intersectionalities: [],
+        identities: [{romantic: 1, sexuality: 1, gender: 1, explicit: 2, prominance: 1}],
+        description: "Noemi hunts of spells in a drowned library and struggles with feeling broken."
+  },
+  {
+        id: 128, title: "Black Box", author: 50, genres: [3], warnings:[16, 15, 10], intersectionalities: [],
+        identities: [{romantic: 1, sexuality: 3, gender: 1, prominance: 1, explicit: 2}], source: [17],
+        description: "A lone surviving science officer on a submarine sees the ghosts of her crewmates."
+  },
+  {
+        id: 129, title: "Sap and Marrow", author: 51, genres: [1,4], warnings: [28], intersectionalities: [],
+        identities: [{romantic: 1, sexuality: 3, gender: 2, prominance: 1, explicit: 2}], source: [17],
+        description:"A retired woodcutter comes across a wooden heart."
+  },
+  {
+        id: 130, title: "The Woman in the Snow", author: 52, genres: [1], warnings: [], intersectionalities: [],
+        identities:[{romantic:1, sexuality:1, gender:1, explicit:1, prominance:1}], source: [17], length: 4,
+        description: "Friends on a bus before adventure."
+  },
+  {
+        id: 131, title: "Well-Worn Pockets", author: 53, genres: [1], warnings: [16], intersectionalities: [],
+        identities: [{romantic: 1, sexuality: 4, gender: 5, explicit: 2, prominance: 1},{romantic: 1, sexuality: 6, gender: 2, explicit: 2, prominance: 2}],
+        source: [17], description: "A sorter of second-hand clothes comes across some unfinished business."
+  },
+  {
+        id: 132, title: "Flurries and Flames", author: 54, genres: [1], warnings: [], intersectionalities: [],
+        identities: [{romantic: 1, sexuality:3,gender:1,explicit:1,prominance:1},{romantic:1,sexuality:3,gender:2,explicit:1,prominance:2}],
+        source:[17],description:"Chava deals with the ups and downs of caring for a baby dragon."
+  },
+  {
+        id: 133, title:"PastPort to Franchesca and Luna of Brooklyn", author: 55, genres: [3], warnings: [16], intersectionalities: [],
+        identities: [{romantic:1,sexuality:7,gender:1,explicit:1,prominance:1},{romantic:1,sexuality:3,gender:1,explicit:1,prominance:1}],
+        source:[17],description:"An elderly couple in a QPR face the end of life."
+  },
+  {
+        id: 134, title: "The Hunger Who Wears His Skin", author: 56, genres: [1], intersectionalities: [2], warnings:[16],
+        intersectionalityDetail: "Character does not identify with assigned gender, but gives no further details.", source:[17],
+        identities: [{romantic:1,sexuality:3,gender:5,explicit:2,prominance:1},{romantic:7,sexuality:3,gender:2,explicit:2,prominance:1}],
+        description: "Child hostage swaps don't do as they're told."
+  },
+  {
+        id: 135, title: "Love Hungry", author: 57, genres: [3], warnings: [28], intersectionalities: [],
+        identities: [{romantic:1,sexuality:4,gender:1,explicit:1,prominance:1}],source:[17],
+        description:"Sasha is convinced to go to a party, which starts to go wrong."
+  },
+  {
+        id: 136, title: "Terra Secunda", author: 58, genres: [3], warnings: [5,11], intersectionalities: [],
+        identities: [{romantic:1,sexuality:3,gender:5,explicit:2,prominance:1}], source: [17],
+        description: "Astronaughts come across something unexpected in the Martian landscape."
+  },
+  {
+        id: 137, title: "Anise, Lozenge, Sugarplum", author: 59, genres: [1], warnings: [29], intersectionalities:[],
+        identities: [{romantic:1,sexuality:1,gender:2,explicit:2,prominance:1}], source: [17],
+        description: "A priest and a death-witch adopt ghost children to escape a war."
+  },
+  {
+        id: 138, title: "Muneera and the Moon", author: 60, genres: [1], warnings: [], intersectionalities: [3],
+        intersectionalityDetail: "Inspired by Palestinian folklore.", source: [16],
+        identities:[{romantic:4,sexuality:1,gender:1,explicit:2,prominance:1}],
+        description: "A djinn cries out to the moon, who listens."
+  },
+  {
+        id: 139, title: "From Whole Cloth", author: 60, genres: [1], warnings: [1], intersectionalities: [3],
+        intersectionalityDetail: "Queer retelling of a Palestinian folktale.", source: [16],
+        identities: [{romantic:3,sexuality:1,gender:2,explicit:2,prominance:1},{romantic:3,sexuality:1,gender:1,explicit:2,prominance:1}],
+        description: "Prince Noor must marry, but only wants a woman who will tell him stories of nothing but lies."
   }
  ]
